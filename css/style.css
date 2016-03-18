@@ -1,0 +1,89 @@
+body{
+  font-family: 'Arial';
+  color: black;
+  background-color: white;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+button, .button {
+    background-color: #AEDEF4;
+    font-family: 'Arial Black';
+    color: #FFF;
+    border: medium none;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 15px 35px;
+    margin: 26px 5px 0px;
+    cursor: pointer;
+    width: 10%; 
+}
+
+h1{
+   color: #ff0000;
+}
+
+input, .input{
+    width: 30%;  
+    font-family: 'Arial Black';
+    color: #FFF;
+    border: medium none;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 15px 35px;
+    margin: 26px 5px 0px;
+}
+
+.input{
+  background-color: #FFF;  
+  border:1px solid #000;
+  color: #000;
+}
+
+table{
+  font-family: 'Arial';
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 50px 30px;
+  border: black 5px solid;
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: gray;
+    position: relative;
+    background: #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 4px solid #000;    
+    border-bottom: 1px solid #000; 
+    color: #FFF; 
+}
+
+td {    
+  padding: 8px;     
+  background: #B9B9B9;     
+  border-bottom: 1px solid #B9B9B9;
+  text-align: center;
+  color: #000;    
+  border-top: 1px solid transparent; 
+}
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+button:focus, .button:focus {
+  outline: none; 
+}
+
+button:hover, .button:hover {
+  background-color: #a1d9f2; 
+}

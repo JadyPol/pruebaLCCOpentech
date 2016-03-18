@@ -6,27 +6,13 @@ body{
   text-align: center;
 }
 
-button, .button {
-    background-color: #AEDEF4;
-    font-family: 'Arial Black';
-    color: #FFF;
-    border: medium none;
-    box-shadow: none;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 15px 35px;
-    margin: 26px 5px 0px;
-    cursor: pointer;
-    width: 10%; 
-}
-
 h1{
    color: #ff0000;
 }
 
-input, .input{
+input {
     width: 30%;  
+    background-color: #AEDEF4;
     font-family: 'Arial Black';
     color: #FFF;
     border: medium none;
